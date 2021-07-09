@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D419C2882697DF7E00070EDA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D419C2872697DF7E00070EDA /* AppDelegate.swift */; };
+		D419C28A2697DF7E00070EDA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D419C2892697DF7E00070EDA /* SceneDelegate.swift */; };
+		D419C28C2697DF7E00070EDA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D419C28B2697DF7E00070EDA /* ViewController.swift */; };
+		D419C28F2697DF7E00070EDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D419C28D2697DF7E00070EDA /* Main.storyboard */; };
+		D419C2912697DF8300070EDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D419C2902697DF8300070EDA /* Assets.xcassets */; };
+		D419C2942697DF8300070EDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D419C2922697DF8300070EDA /* LaunchScreen.storyboard */; };
+		D419C29F2697DF8400070EDA /* IndiaCensusDataAnalyserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D419C29E2697DF8400070EDA /* IndiaCensusDataAnalyserTests.swift */; };
+		D419C2AA2697DF8400070EDA /* IndiaCensusDataAnalyserUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D419C2A92697DF8400070EDA /* IndiaCensusDataAnalyserUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D419C29B2697DF8400070EDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D419C27C2697DF7E00070EDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D419C2832697DF7E00070EDA;
+			remoteInfo = IndiaCensusDataAnalyser;
+		};
+		D419C2A62697DF8400070EDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D419C27C2697DF7E00070EDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D419C2832697DF7E00070EDA;
+			remoteInfo = IndiaCensusDataAnalyser;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D419C2842697DF7E00070EDA /* IndiaCensusDataAnalyser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IndiaCensusDataAnalyser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D419C2872697DF7E00070EDA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D419C2892697DF7E00070EDA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D419C28B2697DF7E00070EDA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D419C28E2697DF7E00070EDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D419C2902697DF8300070EDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D419C2932697DF8300070EDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D419C2952697DF8300070EDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D419C29A2697DF8400070EDA /* IndiaCensusDataAnalyserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IndiaCensusDataAnalyserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D419C29E2697DF8400070EDA /* IndiaCensusDataAnalyserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndiaCensusDataAnalyserTests.swift; sourceTree = "<group>"; };
+		D419C2A02697DF8400070EDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D419C2A52697DF8400070EDA /* IndiaCensusDataAnalyserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IndiaCensusDataAnalyserUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D419C2A92697DF8400070EDA /* IndiaCensusDataAnalyserUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndiaCensusDataAnalyserUITests.swift; sourceTree = "<group>"; };
+		D419C2AB2697DF8400070EDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D419C2812697DF7E00070EDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D419C2972697DF8400070EDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D419C2A22697DF8400070EDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D419C27B2697DF7E00070EDA = {
+			isa = PBXGroup;
+			children = (
+				D419C2862697DF7E00070EDA /* IndiaCensusDataAnalyser */,
+				D419C29D2697DF8400070EDA /* IndiaCensusDataAnalyserTests */,
+				D419C2A82697DF8400070EDA /* IndiaCensusDataAnalyserUITests */,
+				D419C2852697DF7E00070EDA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D419C2852697DF7E00070EDA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D419C2842697DF7E00070EDA /* IndiaCensusDataAnalyser.app */,
+				D419C29A2697DF8400070EDA /* IndiaCensusDataAnalyserTests.xctest */,
+				D419C2A52697DF8400070EDA /* IndiaCensusDataAnalyserUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D419C2862697DF7E00070EDA /* IndiaCensusDataAnalyser */ = {
+			isa = PBXGroup;
+			children = (
+				D419C2872697DF7E00070EDA /* AppDelegate.swift */,
+				D419C2892697DF7E00070EDA /* SceneDelegate.swift */,
+				D419C28B2697DF7E00070EDA /* ViewController.swift */,
+				D419C28D2697DF7E00070EDA /* Main.storyboard */,
+				D419C2902697DF8300070EDA /* Assets.xcassets */,
+				D419C2922697DF8300070EDA /* LaunchScreen.storyboard */,
+				D419C2952697DF8300070EDA /* Info.plist */,
+			);
+			path = IndiaCensusDataAnalyser;
+			sourceTree = "<group>";
+		};
+		D419C29D2697DF8400070EDA /* IndiaCensusDataAnalyserTests */ = {
+			isa = PBXGroup;
+			children = (
+				D419C29E2697DF8400070EDA /* IndiaCensusDataAnalyserTests.swift */,
+				D419C2A02697DF8400070EDA /* Info.plist */,
+			);
+			path = IndiaCensusDataAnalyserTests;
+			sourceTree = "<group>";
+		};
+		D419C2A82697DF8400070EDA /* IndiaCensusDataAnalyserUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D419C2A92697DF8400070EDA /* IndiaCensusDataAnalyserUITests.swift */,
+				D419C2AB2697DF8400070EDA /* Info.plist */,
+			);
+			path = IndiaCensusDataAnalyserUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D419C2832697DF7E00070EDA /* IndiaCensusDataAnalyser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D419C2AE2697DF8400070EDA /* Build configuration list for PBXNativeTarget "IndiaCensusDataAnalyser" */;
+			buildPhases = (
+				D419C2802697DF7E00070EDA /* Sources */,
+				D419C2812697DF7E00070EDA /* Frameworks */,
+				D419C2822697DF7E00070EDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IndiaCensusDataAnalyser;
+			productName = IndiaCensusDataAnalyser;
+			productReference = D419C2842697DF7E00070EDA /* IndiaCensusDataAnalyser.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D419C2992697DF8400070EDA /* IndiaCensusDataAnalyserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D419C2B12697DF8400070EDA /* Build configuration list for PBXNativeTarget "IndiaCensusDataAnalyserTests" */;
+			buildPhases = (
+				D419C2962697DF8400070EDA /* Sources */,
+				D419C2972697DF8400070EDA /* Frameworks */,
+				D419C2982697DF8400070EDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D419C29C2697DF8400070EDA /* PBXTargetDependency */,
+			);
+			name = IndiaCensusDataAnalyserTests;
+			productName = IndiaCensusDataAnalyserTests;
+			productReference = D419C29A2697DF8400070EDA /* IndiaCensusDataAnalyserTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D419C2A42697DF8400070EDA /* IndiaCensusDataAnalyserUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D419C2B42697DF8400070EDA /* Build configuration list for PBXNativeTarget "IndiaCensusDataAnalyserUITests" */;
+			buildPhases = (
+				D419C2A12697DF8400070EDA /* Sources */,
+				D419C2A22697DF8400070EDA /* Frameworks */,
+				D419C2A32697DF8400070EDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D419C2A72697DF8400070EDA /* PBXTargetDependency */,
+			);
+			name = IndiaCensusDataAnalyserUITests;
+			productName = IndiaCensusDataAnalyserUITests;
+			productReference = D419C2A52697DF8400070EDA /* IndiaCensusDataAnalyserUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D419C27C2697DF7E00070EDA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					D419C2832697DF7E00070EDA = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					D419C2992697DF8400070EDA = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = D419C2832697DF7E00070EDA;
+					};
+					D419C2A42697DF8400070EDA = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = D419C2832697DF7E00070EDA;
+					};
+				};
+			};
+			buildConfigurationList = D419C27F2697DF7E00070EDA /* Build configuration list for PBXProject "IndiaCensusDataAnalyser" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D419C27B2697DF7E00070EDA;
+			productRefGroup = D419C2852697DF7E00070EDA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D419C2832697DF7E00070EDA /* IndiaCensusDataAnalyser */,
+				D419C2992697DF8400070EDA /* IndiaCensusDataAnalyserTests */,
+				D419C2A42697DF8400070EDA /* IndiaCensusDataAnalyserUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D419C2822697DF7E00070EDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D419C2942697DF8300070EDA /* LaunchScreen.storyboard in Resources */,
+				D419C2912697DF8300070EDA /* Assets.xcassets in Resources */,
+				D419C28F2697DF7E00070EDA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D419C2982697DF8400070EDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D419C2A32697DF8400070EDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D419C2802697DF7E00070EDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D419C28C2697DF7E00070EDA /* ViewController.swift in Sources */,
+				D419C2882697DF7E00070EDA /* AppDelegate.swift in Sources */,
+				D419C28A2697DF7E00070EDA /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D419C2962697DF8400070EDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D419C29F2697DF8400070EDA /* IndiaCensusDataAnalyserTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D419C2A12697DF8400070EDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D419C2AA2697DF8400070EDA /* IndiaCensusDataAnalyserUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D419C29C2697DF8400070EDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D419C2832697DF7E00070EDA /* IndiaCensusDataAnalyser */;
+			targetProxy = D419C29B2697DF8400070EDA /* PBXContainerItemProxy */;
+		};
+		D419C2A72697DF8400070EDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D419C2832697DF7E00070EDA /* IndiaCensusDataAnalyser */;
+			targetProxy = D419C2A62697DF8400070EDA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D419C28D2697DF7E00070EDA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D419C28E2697DF7E00070EDA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D419C2922697DF8300070EDA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D419C2932697DF8300070EDA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D419C2AC2697DF8400070EDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D419C2AD2697DF8400070EDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D419C2AF2697DF8400070EDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IndiaCensusDataAnalyser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Bridgelabz.IndiaCensusDataAnalyser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D419C2B02697DF8400070EDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IndiaCensusDataAnalyser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Bridgelabz.IndiaCensusDataAnalyser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D419C2B22697DF8400070EDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IndiaCensusDataAnalyserTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Bridgelabz.IndiaCensusDataAnalyserTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IndiaCensusDataAnalyser.app/IndiaCensusDataAnalyser";
+			};
+			name = Debug;
+		};
+		D419C2B32697DF8400070EDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IndiaCensusDataAnalyserTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Bridgelabz.IndiaCensusDataAnalyserTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IndiaCensusDataAnalyser.app/IndiaCensusDataAnalyser";
+			};
+			name = Release;
+		};
+		D419C2B52697DF8400070EDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IndiaCensusDataAnalyserUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Bridgelabz.IndiaCensusDataAnalyserUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IndiaCensusDataAnalyser;
+			};
+			name = Debug;
+		};
+		D419C2B62697DF8400070EDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IndiaCensusDataAnalyserUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Bridgelabz.IndiaCensusDataAnalyserUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IndiaCensusDataAnalyser;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D419C27F2697DF7E00070EDA /* Build configuration list for PBXProject "IndiaCensusDataAnalyser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D419C2AC2697DF8400070EDA /* Debug */,
+				D419C2AD2697DF8400070EDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D419C2AE2697DF8400070EDA /* Build configuration list for PBXNativeTarget "IndiaCensusDataAnalyser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D419C2AF2697DF8400070EDA /* Debug */,
+				D419C2B02697DF8400070EDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D419C2B12697DF8400070EDA /* Build configuration list for PBXNativeTarget "IndiaCensusDataAnalyserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D419C2B22697DF8400070EDA /* Debug */,
+				D419C2B32697DF8400070EDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D419C2B42697DF8400070EDA /* Build configuration list for PBXNativeTarget "IndiaCensusDataAnalyserUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D419C2B52697DF8400070EDA /* Debug */,
+				D419C2B62697DF8400070EDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D419C27C2697DF7E00070EDA /* Project object */;
+}
