@@ -14,7 +14,20 @@
 		D419C2912697DF8300070EDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D419C2902697DF8300070EDA /* Assets.xcassets */; };
 		D419C2942697DF8300070EDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D419C2922697DF8300070EDA /* LaunchScreen.storyboard */; };
 		D419C29F2697DF8400070EDA /* IndiaCensusDataAnalyserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D419C29E2697DF8400070EDA /* IndiaCensusDataAnalyserTests.swift */; };
-		D419C2AA2697DF8400070EDA /* IndiaCensusDataAnalyserUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D419C2A92697DF8400070EDA /* IndiaCensusDataAnalyserUITests.swift */; };
+		D419C2B82697DFC000070EDA /* DataCensusAnalyser.swift in Sources */ = {isa = PBXBuildFile; fileRef = D419C2B72697DFC000070EDA /* DataCensusAnalyser.swift */; };
+		D419C2B92697DFC000070EDA /* DataCensusAnalyser.swift in Sources */ = {isa = PBXBuildFile; fileRef = D419C2B72697DFC000070EDA /* DataCensusAnalyser.swift */; };
+		D419C2BA2697DFC000070EDA /* DataCensusAnalyser.swift in Sources */ = {isa = PBXBuildFile; fileRef = D419C2B72697DFC000070EDA /* DataCensusAnalyser.swift */; };
+		D419C2BC2697E13500070EDA /* IndiaStateCensusData.csv in Resources */ = {isa = PBXBuildFile; fileRef = D419C2BB2697E13500070EDA /* IndiaStateCensusData.csv */; };
+		D419C2BD2697E13500070EDA /* IndiaStateCensusData.csv in Resources */ = {isa = PBXBuildFile; fileRef = D419C2BB2697E13500070EDA /* IndiaStateCensusData.csv */; };
+		D419C2BE2697E13500070EDA /* IndiaStateCensusData.csv in Resources */ = {isa = PBXBuildFile; fileRef = D419C2BB2697E13500070EDA /* IndiaStateCensusData.csv */; };
+		D419C2C22697F15400070EDA /* IndiaCensusDataAnalyserUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D419C2A92697DF8400070EDA /* IndiaCensusDataAnalyserUITests.swift */; };
+		D419C2C72697F2D700070EDA /* IndiaCensusDataAnalyserUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D419C2A92697DF8400070EDA /* IndiaCensusDataAnalyserUITests.swift */; };
+		D419C34426983BCF00070EDA /* IndiaStateCensusData1.csv in Resources */ = {isa = PBXBuildFile; fileRef = D419C34326983BCF00070EDA /* IndiaStateCensusData1.csv */; };
+		D419C34526983BCF00070EDA /* IndiaStateCensusData1.csv in Resources */ = {isa = PBXBuildFile; fileRef = D419C34326983BCF00070EDA /* IndiaStateCensusData1.csv */; };
+		D419C34626983BD000070EDA /* IndiaStateCensusData1.csv in Resources */ = {isa = PBXBuildFile; fileRef = D419C34326983BCF00070EDA /* IndiaStateCensusData1.csv */; };
+		D419C34826985AA400070EDA /* IndiaStateCensusData2.csv in Resources */ = {isa = PBXBuildFile; fileRef = D419C34726985AA400070EDA /* IndiaStateCensusData2.csv */; };
+		D419C34926985AA400070EDA /* IndiaStateCensusData2.csv in Resources */ = {isa = PBXBuildFile; fileRef = D419C34726985AA400070EDA /* IndiaStateCensusData2.csv */; };
+		D419C34A26985AA400070EDA /* IndiaStateCensusData2.csv in Resources */ = {isa = PBXBuildFile; fileRef = D419C34726985AA400070EDA /* IndiaStateCensusData2.csv */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +62,10 @@
 		D419C2A52697DF8400070EDA /* IndiaCensusDataAnalyserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IndiaCensusDataAnalyserUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D419C2A92697DF8400070EDA /* IndiaCensusDataAnalyserUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndiaCensusDataAnalyserUITests.swift; sourceTree = "<group>"; };
 		D419C2AB2697DF8400070EDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D419C2B72697DFC000070EDA /* DataCensusAnalyser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataCensusAnalyser.swift; sourceTree = "<group>"; };
+		D419C2BB2697E13500070EDA /* IndiaStateCensusData.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = IndiaStateCensusData.csv; path = ../../IndiaStateCensusData.csv; sourceTree = "<group>"; };
+		D419C34326983BCF00070EDA /* IndiaStateCensusData1.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = IndiaStateCensusData1.csv; path = ../../../Downloads/IndiaStateCensusData1.csv; sourceTree = "<group>"; };
+		D419C34726985AA400070EDA /* IndiaStateCensusData2.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = IndiaStateCensusData2.csv; path = ../../../Downloads/IndiaStateCensusData2.csv; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +116,9 @@
 		D419C2862697DF7E00070EDA /* IndiaCensusDataAnalyser */ = {
 			isa = PBXGroup;
 			children = (
+				D419C34726985AA400070EDA /* IndiaStateCensusData2.csv */,
+				D419C34326983BCF00070EDA /* IndiaStateCensusData1.csv */,
+				D419C2BB2697E13500070EDA /* IndiaStateCensusData.csv */,
 				D419C2872697DF7E00070EDA /* AppDelegate.swift */,
 				D419C2892697DF7E00070EDA /* SceneDelegate.swift */,
 				D419C28B2697DF7E00070EDA /* ViewController.swift */,
@@ -106,6 +126,7 @@
 				D419C2902697DF8300070EDA /* Assets.xcassets */,
 				D419C2922697DF8300070EDA /* LaunchScreen.storyboard */,
 				D419C2952697DF8300070EDA /* Info.plist */,
+				D419C2B72697DFC000070EDA /* DataCensusAnalyser.swift */,
 			);
 			path = IndiaCensusDataAnalyser;
 			sourceTree = "<group>";
@@ -231,9 +252,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D419C34426983BCF00070EDA /* IndiaStateCensusData1.csv in Resources */,
 				D419C2942697DF8300070EDA /* LaunchScreen.storyboard in Resources */,
+				D419C34826985AA400070EDA /* IndiaStateCensusData2.csv in Resources */,
 				D419C2912697DF8300070EDA /* Assets.xcassets in Resources */,
 				D419C28F2697DF7E00070EDA /* Main.storyboard in Resources */,
+				D419C2BC2697E13500070EDA /* IndiaStateCensusData.csv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +265,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D419C2BD2697E13500070EDA /* IndiaStateCensusData.csv in Resources */,
+				D419C34526983BCF00070EDA /* IndiaStateCensusData1.csv in Resources */,
+				D419C34926985AA400070EDA /* IndiaStateCensusData2.csv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,6 +275,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D419C2BE2697E13500070EDA /* IndiaStateCensusData.csv in Resources */,
+				D419C34626983BD000070EDA /* IndiaStateCensusData1.csv in Resources */,
+				D419C34A26985AA400070EDA /* IndiaStateCensusData2.csv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +289,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D419C28C2697DF7E00070EDA /* ViewController.swift in Sources */,
+				D419C2B82697DFC000070EDA /* DataCensusAnalyser.swift in Sources */,
 				D419C2882697DF7E00070EDA /* AppDelegate.swift in Sources */,
 				D419C28A2697DF7E00070EDA /* SceneDelegate.swift in Sources */,
 			);
@@ -269,6 +300,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D419C29F2697DF8400070EDA /* IndiaCensusDataAnalyserTests.swift in Sources */,
+				D419C2C72697F2D700070EDA /* IndiaCensusDataAnalyserUITests.swift in Sources */,
+				D419C2B92697DFC000070EDA /* DataCensusAnalyser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +309,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D419C2AA2697DF8400070EDA /* IndiaCensusDataAnalyserUITests.swift in Sources */,
+				D419C2BA2697DFC000070EDA /* DataCensusAnalyser.swift in Sources */,
+				D419C2C22697F15400070EDA /* IndiaCensusDataAnalyserUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
